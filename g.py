@@ -14,7 +14,7 @@ import subprocess
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '8444893032:AAEApIp8WwE6MNLKbYvqQs9kZpfah0jFUxE' #Enter_Bot_Token_within_the_colons
+TOKEN = '7175088392:AAGId720YtK3fpxYygTTxuBOWNtBus2Sdxg' #Enter_Bot_Token_within_the_colons
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
 FORWARD_CHANNEL_ID = -1001987596149   
 
@@ -24,7 +24,7 @@ client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['anxx']
 users_collection = db.users
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.1676270773)
 REQUEST_INTERVAL = 1
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
